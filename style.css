@@ -25,6 +25,9 @@ body{
 summary{
     list-style-type: none;
 }
+summary::-webkit-details-marker {
+    display:none;
+}
 details[open] summary {
     animation: sweep 3s ease-in-out;
 }
